@@ -32,10 +32,11 @@
     "gulp-sass": "^3.1.0",
     "lite-server": "^2.3.0",
     "path": "^0.12.7",
-    "typescript": "^2.6.2"
+    "typescript": "^2.6.2",
+    "express": "^4.16.2",
+    "fs": "0.0.1-security"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "tsc && lite-server -c=tsconfig.json",
     "sass": "node-sass ./css -o ./css",
     "start": "tsc && node server.js"
