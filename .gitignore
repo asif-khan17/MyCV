@@ -252,12 +252,12 @@ paket-files/
 *.sln.iml
 
 _references.js
-**/wwwroot/app/**/*.js
-**/wwwroot/app/**/*.js.map
+**/app/**/*.js
+**/app/**/*.js.map
 
-**/wwwroot/css/*.css
+**/css/*.css
 
-**/wwwroot/dist/
+**/dist/
 
 # published output
 **/published/
