@@ -7,6 +7,7 @@ import { CommonModule }   from '@angular/common';
 import { FormsModule }    from '@angular/forms';
 import { UserService } from './users/user.service';
 import { HttpModule } from '@angular/http';
+import { TreeModule } from 'angular-tree-component';
 
 const appRoutes:Routes=[
      { path: 'users' , component: UserComponent },
@@ -22,6 +23,7 @@ imports:[
        appRoutes),
     BrowserModule,
     FormsModule,
+	TreeModule,
     CommonModule,
     HttpModule
 

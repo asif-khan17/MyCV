@@ -18,6 +18,7 @@
     "@angular/router": "5.0.0",
     "express": "^4.16.2",
     "fs": "0.0.1-security",
+    "mobx": "^3.4.1",
     "systemjs": "^0.20.19",
     "tls": "0.0.1",
     "v8": "^0.1.0",
@@ -27,14 +28,16 @@
     "@angular/cli": "^1.5.5",
     "@angular/platform-browser": "^5.0.0",
     "@types/node": "^7.0.5",
+    "angular-tree-component": "^7.0.1",
     "body-parser": "^1.18.2",
     "bootstrap": "^3.3.7",
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
     "gulp-sass": "^3.1.0",
     "lite-server": "^2.3.0",
+    "lodash": "^4.17.4",
     "path": "^0.12.7",
-    "typescript": "^2.6.2",
-    "express": "^4.16.2",
-    "fs": "0.0.1-security"
+    "typescript": "^2.6.2"
   },
   "scripts": {
     "serve": "tsc && lite-server -c=tsconfig.json",

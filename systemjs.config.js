@@ -19,13 +19,18 @@
             '@angular/http': 'npm:@angular/http/bundles/http.umd.js',
             '@angular/router': 'npm:@angular/router/bundles/router.umd.js',
             '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.js',
+            'angular-tree-component':'npm:angular-tree-component/dist/angular-tree-component.umd.js',
+            'mobx':"./node_modules/mobx/lib/mobx.js",   
+            'mobx-angular':"./node_modules/mobx-angular/dist/mobx-angular.umd.js",
+            'lodash': './node_modules/lodash',
             // other libraries
             'rxjs': 'npm:rxjs',
         },
         // packages tells the System loader how to load when no filename and/or no extension
         packages: {
             rxjs: { defaultExtension: 'js' },
-            '.': { defaultExtensions: 'js' }
+            '.': { defaultExtensions: 'js' },
+            'lodash':{ main: 'lodash.js', defaultExtensions:'js'}
         }
     });
 })(this);
