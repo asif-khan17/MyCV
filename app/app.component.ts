@@ -43,8 +43,9 @@ nodes = [
 
     // }
 	
-	setNode(){
+	// setNode(){
+		// this.nodeName = 
 		
-	}
+	// }
 	
 }
