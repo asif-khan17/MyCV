@@ -42,10 +42,4 @@ nodes = [
     //     });
 
     // }
-	
-	// setNode(){
-		// this.nodeName = 
-		
-	// }
-	
 }
